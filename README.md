@@ -42,6 +42,16 @@ python -m http.server 8082
 
 Puis ouvrez `http://localhost:8082` dans votre navigateur.
 
+### ⚠️ Comment Arrêter le Serveur
+
+**IMPORTANT** : Pour éviter les conflits de port, arrêtez correctement le serveur après utilisation :
+
+1. **Cliquez dans la fenêtre du terminal** où le serveur tourne
+2. **Appuyez sur `Ctrl+C`**
+3. Le serveur s'arrêtera proprement
+
+> **Note** : Si vous fermez simplement la fenêtre sans faire `Ctrl+C`, le serveur peut continuer à tourner en arrière-plan. Si vous rencontrez une erreur "port déjà utilisé", ouvrez le Gestionnaire des tâches (Ctrl+Shift+Esc), allez dans "Détails", et arrêtez tous les processus `python.exe`.
+
 ---
 
 ## 📁 Structure du Projet
