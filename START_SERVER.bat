@@ -1,20 +1,19 @@
 @echo off
-chcp 65001 >nul
 color 0A
 echo.
-echo ╔════════════════════════════════════════════════════════╗
-echo ║          🎮 GAMEARENA - Serveur de Démarrage 🎮        ║
-echo ╚════════════════════════════════════════════════════════╝
+echo ============================================================
+echo          GAMEARENA - Serveur de Demarrage
+echo ============================================================
 echo.
-echo [✓] Démarrage du serveur HTTP sur le port 8082...
+echo [OK] Demarrage du serveur HTTP sur le port 8082...
 echo.
-echo ┌────────────────────────────────────────────────────────┐
-echo │  Serveur actif! Ouvrez votre navigateur et allez à:    │
-echo │                                                        │
-echo │           http://localhost:8082                        │
-echo │                                                        │
-echo │  Appuyez sur Ctrl+C pour arrêter le serveur           │
-echo └────────────────────────────────────────────────────────┘
+echo ------------------------------------------------------------
+echo   Serveur actif! Ouvrez votre navigateur et allez a:
+echo.
+echo            http://localhost:8082
+echo.
+echo   Appuyez sur Ctrl+C pour arreter le serveur
+echo ------------------------------------------------------------
 echo.
 echo [INFO] Logs du serveur:
 echo ----------------------------------------
