@@ -26,10 +26,10 @@ GameArena est une plateforme de jeux web interactive qui permet de jouer contre 
 ### Méthode 1 : Lancement Rapide (Recommandé)
 
 1. **Double-cliquez** sur le fichier `START_SERVER.bat`
-2. Une fenêtre de terminal s'ouvrira montrant que le serveur est actif
-3. Ouvrez votre navigateur web
-4. Allez à l'adresse : **`http://localhost:8082`**
-5. Profitez de la plateforme ! 🎮
+2. Une fenêtre de terminal s'ouvrira et **le navigateur s'ouvrira automatiquement** sur la plateforme
+3. Profitez de la plateforme ! 🎮
+
+> **Note** : Le navigateur s'ouvre automatiquement sur `http://localhost:8082/index.html`
 
 ### Méthode 2 : Lancement Manuel
 
@@ -40,7 +40,7 @@ Si vous préférez lancer manuellement :
 python -m http.server 8082
 ```
 
-Puis ouvrez `http://localhost:8082` dans votre navigateur.
+Puis ouvrez `http://localhost:8082/index.html` dans votre navigateur.
 
 ### ⚠️ Comment Arrêter le Serveur
 
